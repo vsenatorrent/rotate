@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+  .container::after {
+    content: '';
+    display: table-cell;
+    clear: both; }
+  .container .left {
+    width: 85%;
+    float: left;
+    background-color: #f3f3f3; }
+    .container .left p {
+      font-size: 72px;
+      opacity: 0; }
+  .container .right {
+    width: 15%;
+    float: right; }
+    .container .right img {
+      position: fixed;
+      width: 50px; }
+    .container .right .img2 {
+      top: 55px; }
+    .container .right .img3 {
+      top: 110px; }
+    .container .right .img4 {
+      top: 165px; }
+
+/*# sourceMappingURL=main.css.map */

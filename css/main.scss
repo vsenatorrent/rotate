@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  &::after {
+    content: '';
+    display: table-cell;
+    clear: both;
+  }
+  .left {
+    width: 85%;
+    float: left;
+    background-color: #f3f3f3;
+    p {
+      font-size: 72px;
+      opacity: 0;
+    }
+  }
+  .right {
+    width: 15%;
+    float: right;
+    img {
+      position: fixed;
+      width: 50px;
+    }
+    .img2 {
+      top: 55px;
+    }
+    .img3 {
+      top: 110px;
+    }
+    .img4 {
+      top: 165px;
+    }
+  }
+}
